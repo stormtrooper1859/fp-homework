@@ -17,7 +17,7 @@
 #
 # resolver: ./custom-snapshot.yaml
 # resolver: https://example.com/snapshots/2018-01-01.yaml
-resolver: lts-13.9
+resolver: lts-13.3
 
 # User packages to be built.
 # Various formats can be used as shown in the example below.
@@ -33,6 +33,7 @@ resolver: lts-13.9
 #  - auto-update
 #  - wai
 packages:
+- hw0
 - hw1
 - hw2
 - hw3
